@@ -12,16 +12,23 @@ console.log(valueInNumber);
 // null = 0
 // undefined = NaN
 
-let isLoggedIn = "saan"
+let isLoggedIn = "san"
 
 let boolenIsLoggedIn = Boolean(isLoggedIn)
 console.log(boolenIsLoggedIn);
 
 // 1 = true, 0 = false
 // "" = false
-// "saan" = true
+// "saan" = true like this 
+// 
 
-let someString = 33
+let someString = 3343
 let stringNumer = String(someString);
 console.log(stringNumer);
 console.log(typeof stringNumer)
+
+/***************************************  operations *****************************************/
+
+let value = 3
+let negValue = -value
+console.log(negValue)
